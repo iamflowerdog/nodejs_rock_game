@@ -55,3 +55,4 @@
 #### nodejs非阻塞
 * 阻塞和非阻塞区别在于，输入和输出之间是否可以做其他事情
 ![image](https://github.com/iamflowerdog/nodejs_rock_game/blob/master/image/nodejs.png)
+* glob  读取本地文件异步方法 耗时 3.2ms，同步10ms

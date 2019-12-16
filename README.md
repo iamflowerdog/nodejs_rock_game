@@ -33,3 +33,9 @@
 ```
 #### process.on监听用户的输入
 * 注意在监听的时候，不能同时使用process.argv，会导致监听不生效
+
+#### npm 大神
+* TJ Holowaychunk `express`
+* Mafintosh 
+* Dominictarr
+* npm event-stream (bitcon)

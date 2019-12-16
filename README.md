@@ -39,3 +39,8 @@
 * Mafintosh 
 * Dominictarr
 * npm event-stream (bitcon)
+
+#### 递增运算符（++）
+递增运算符为其操作加1，返回一个值result；
+* 如果是postfix，即i++，那么将会在递增前返回这一数值（result）；
+* 如果是prefix，即++i，那么将在递增后返回这一数值（result）；

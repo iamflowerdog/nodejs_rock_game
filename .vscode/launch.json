@@ -7,12 +7,11 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "rock",
+      "name": "test",
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/index.js",
-       "args": ["rock"]
+      "program": "${workspaceFolder}/test.js"
     }　
   ]
 }

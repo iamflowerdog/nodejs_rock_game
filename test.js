@@ -5,8 +5,8 @@ function myCpu(data=[]) {
   let i = 0;
   while (i < data.length) {
     result.push({
-      model: data[i++].model,
-      speed: data[i++].speed
+      model: data[i++],
+      speed: data[i++]
     });
   }
   return result;

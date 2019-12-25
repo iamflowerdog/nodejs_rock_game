@@ -1,17 +1,9 @@
-const os = require('os');
-
-function myCpu(data=[]) {
-  const result = [];
-  let i = 0;
-  while (i < data.length) {
-    result.push({
-      model: data[i++],
-      speed: data[i++]
-    });
+let a = '';
+for (let i = 1; i < 4000; i++) {
+  if (i % 7 == 0 || i % 10 == 7) {
+    a = a + i + '过' + '\t' 
   }
-  return result;
 }
-console.log(os.cpus());
-console.log(myCpu([
-  'Intel', '22', 'AMD', '23'
-]));
+
+console.log(a);
+
